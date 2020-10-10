@@ -9,7 +9,7 @@ import {
   Platform,
 } from 'react-native';
 // import menuMock from './__mocks__/menu.json'
-import keygen from './src/components/utils';
+import keygen from './src/utils';
 import {url} from './src/constants';
 import {Header, Cart, Menu} from './src/components';
 

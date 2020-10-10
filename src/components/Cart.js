@@ -8,7 +8,7 @@ import {
   ScrollView,
 } from 'react-native';
 import {cart} from './img';
-import keygen from './utils';
+import keygen from '../utils';
 
 export function Cart({items, setItems, sendToPayment, total, setTotal}) {
   return (

@@ -93,7 +93,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     margin: 10,
-    width: 300,
     borderRadius: 10,
     borderWidth: 3,
     borderColor: 'pink',

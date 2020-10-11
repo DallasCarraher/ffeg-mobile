@@ -47,7 +47,9 @@ const App = () => {
 
   return (
     <>
-      <StatusBar barStyle="light-content" />
+      <StatusBar
+        barStyle={Platform.OS === 'ios' ? 'dark-content' : 'light-content'}
+      />
       <SafeAreaView style={styles.safeAreaView}>
         <Header toggleCart={toggleCart} items={items} openCart={openCart} />
         {!cart ? (
